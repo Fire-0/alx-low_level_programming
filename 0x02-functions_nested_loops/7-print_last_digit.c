@@ -3,20 +3,14 @@
 /**
  * print_last_digit-Function that prints last digit of a number
  * @n: integral input 
- * Return:Always 0.
+ * Return:value of last digit
  */
 int print_last_digit(int n)
 	{
-		if (n >= 0)
+		if (n < 0)
 		{
-			n = n % 10;
-			_putchar(n);
+			n *= -1;
 		}
-		else if (n <0)
-		{
-			n = ((-1) * n) % 10;
-			_putchar(n);
-		}
-		return (n);
+		return (n % 10);
 	}
 
