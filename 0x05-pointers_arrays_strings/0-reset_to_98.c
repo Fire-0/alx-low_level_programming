@@ -11,5 +11,5 @@ int p;
 n = &p;
 *n = 98;
 p = *n;
-printf(98);
+printf("98");
 }
