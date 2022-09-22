@@ -12,5 +12,5 @@ int p;
 n = &p;
 *n = 98;
 p = *n;
-printf("%d", p);
+printf("%d\n", p);
 }
