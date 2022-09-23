@@ -10,11 +10,9 @@ void print_rev(char *s)
 int m, n = 0;
 
 s[n] = '\0';
-m = n - 1;
-while (m >= 0)
+for (m = n - 1; m >= 0; m--)
 {
 printf("s[m]");
-m--;
 }
 printf("\n");
 }
