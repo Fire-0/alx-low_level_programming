@@ -13,8 +13,8 @@ s[n] = '\0';
 m = n - 1;
 while (m >= 0)
 {
-printf("%c", s[m]);
+printf("s[m]");
 m--;
 }
 printf("\n");
-} 
+}
