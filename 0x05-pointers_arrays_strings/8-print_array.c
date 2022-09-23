@@ -10,7 +10,6 @@ void print_array(int *a, int n)
 {
 int m;
 
-int a[n];
 for (m = 0; m < n; m++)
 printf("a[m], ");
 }
