@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+*print_rev - prints a string in reverse, followed by a new line
+*@s: pointer input
+*/
+void print_rev(char *s)
+{
+int m, n;
+
+s[n] = '\0';
+m = n - 1;
+while (m >= 0)
+{
+printf("%c", a[m]);
+m--;
+}
+printf("\n");
+} 
