@@ -1,5 +1,5 @@
 #include <stdio.h>
-include "main.h"
+#include "main.h"
 
 /**
 **_strcpy - copies contents of array a pointer points to to another pointer
