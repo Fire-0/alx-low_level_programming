@@ -3,8 +3,8 @@
 
 /**
 **_strcpy - copies contents of array a pointer points to to another pointer
-*dest: pointer input
-*src: pointer input
+*@dest: pointer input
+*@src: pointer input
 *Return: value of dest pointer
 */
 char *_strcpy(char *dest, char *src)
