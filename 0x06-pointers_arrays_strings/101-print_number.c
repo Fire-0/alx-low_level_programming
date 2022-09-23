@@ -7,5 +7,5 @@
 */
 void print_numbers(int n);
 {
-_putchar(n + '9');
+_putchar(n + '0');
 }
