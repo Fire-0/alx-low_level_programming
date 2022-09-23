@@ -13,6 +13,6 @@ int m, o;
 
 dest[o] = 0;
 for (m = 0; m < n && src[m] != 0; m++)
-dest[o + n] = '\0';
+dest[o + m] = '\0';
 return (dest);
 }
