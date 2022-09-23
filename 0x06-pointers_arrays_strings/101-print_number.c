@@ -7,5 +7,5 @@
 */
 void print_numbers(int n);
 {
-_putchar(n + '0');
+_putchar(n + '48');
 }
