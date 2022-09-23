@@ -12,5 +12,5 @@ int temp;
 
 temp = *a;
 *a = *b;
-*b = t;
+*b = temp;
 }
