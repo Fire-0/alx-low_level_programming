@@ -5,7 +5,7 @@
 *print_number - prints an integer
 *@n: integral input
 */
-void print_number(int n);
+void print_number(int n)
 {
 _putchar(n + '0');
 }
