@@ -24,7 +24,7 @@ printf("Buzz");
 }
 else if (n % 15 == 0)
 {
-printf("FizzBuzz");
+printf("FizzBuzz ");
 }
 else
 {
