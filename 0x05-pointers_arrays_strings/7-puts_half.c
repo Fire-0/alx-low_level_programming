@@ -13,15 +13,15 @@ l = _strlen(str);
 if (l % 2 == 0)
 {
 n = l / 2;
-for (n += 1; n <= l; n++)
+for ( ; n <= l; n++)
 {
 printf("%c", str[n]);
 }
 }
 else
 {
-n = (l -1) / 2;
-for (n += 2; n <= l; n++)
+n = (l - 1) / 2;
+for (n += 1; n <= l; n++)
 {
 printf ("%c", str[n]);
 }
