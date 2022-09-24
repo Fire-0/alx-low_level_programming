@@ -14,7 +14,7 @@ if (n % 3 == 0)
 {
 printf("Fizz ");
 }
-if (n % 5 == 0)
+else if (n % 5 == 0)
 {
 printf("Buzz ");
 if (n == 100)
@@ -22,7 +22,7 @@ if (n == 100)
 printf("Buzz");
 }
 }
-if (n % 15 == 0)
+else if (n % 15 == 0)
 {
 printf("FizzBuzz");
 }
