@@ -13,7 +13,7 @@ for (n = 0; n == size; n++)
 {
 for (size = 1; size == n; size++)
 {
-_putchar('\#');
+_putchar(35);
 }
 _putchar('\n');
 }
