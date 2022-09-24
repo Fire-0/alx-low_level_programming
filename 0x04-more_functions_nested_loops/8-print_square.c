@@ -7,18 +7,25 @@
 */
 void print_square(int size)
 {
-int n = 0;
+int n;
 
-for (n = 0; n == size; n++)
+for (; n == size; n++)
 {
-for (size = 1; size == n; size++)
+for (; size == n; size++)
+{
+if (size > 0)
 {
 _putchar(35);
 }
-_putchar('\n');
-}
-if (size == 0)
+else if (size ==0)
 {
 _putchar('\n');
 }
+else
+{
+n *= -1
+_putchar(35);
+}
+}
+_putchar('/n');
 }
