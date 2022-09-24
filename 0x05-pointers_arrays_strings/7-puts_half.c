@@ -13,10 +13,11 @@ l = _strlen(str);
 if (l % 2 == 0)
 {
 n = l / 2;
-for ( ; n <= l; n++)
+for (; n <= l; n++)
 {
 printf("%c", str[n]);
 }
+printf("\n");
 }
 else
 {
@@ -25,6 +26,6 @@ for (n += 1; n <= l; n++)
 {
 printf ("%c", str[n]);
 }
-}
 printf("\n");
+}
 }
