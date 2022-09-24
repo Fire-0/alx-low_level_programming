@@ -26,6 +26,5 @@ else
 n = n * -1;
 _putchar(35);
 }
-}
 _putchar('\n');
 }
