@@ -13,12 +13,12 @@ int n, l = 0;
 
 for (n = 0; s1[n] == s2[n]; n++)
 l = s1[n] - s2[n];
-if (l == 0)
+if (l != 0)
 {
-return (0);
+return (l);
 }
 else
 {
-return (l);
+return (0);
 }
 }
