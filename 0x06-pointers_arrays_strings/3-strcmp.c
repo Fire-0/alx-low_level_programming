@@ -11,10 +11,8 @@ int _strcmp(char *s1, char *s2)
 {
 int n = 0, l = 0;
 
-while (s1[n] == s2[n])
-{
+for (;s1[n] == s2[n]; n++)
 l = s1[n] - s2[n];
-n++;
 if (l != 0)
 {
 return (l);
@@ -22,6 +20,5 @@ return (l);
 else
 {
 return (0);
-}
 }
 }
