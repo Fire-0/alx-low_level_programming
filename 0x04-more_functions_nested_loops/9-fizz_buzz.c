@@ -27,7 +27,7 @@ if (n % 15 == 0)
 printf("FizzBuzz");
 }
 else
-}
+{
 printf("%d ", n);
 }
 Return (0);
