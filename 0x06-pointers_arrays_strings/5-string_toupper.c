@@ -6,12 +6,11 @@
 *@a: pointer input
 *Return: pointer
 */
-char *string_toupper(char *)
+char *string_toupper(char *a)
 {
-char *a;
 int n;
 
-for (n = 0; a[n] != '\0'; n++;)
+for (n = 0; a[n] != '\0'; n++)
 {
 if (a[n] >= 'a' && a[n] <= 'z')
 {
