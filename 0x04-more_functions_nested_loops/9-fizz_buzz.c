@@ -9,7 +9,7 @@ int main(void)
 int n;
 
 n = 1;
-for (n = 1; n < 100; n++)
+for (n = 1; n <= 100; n++)
 if (n % 3 == 0 && !(n % 15 == 0))
 {
 printf("Fizz ");
@@ -26,8 +26,5 @@ else
 {
 printf("%d ", n);
 }
-n == 100;
-printf ("Buzz");
-printf("\n");
 return (0);
 }
