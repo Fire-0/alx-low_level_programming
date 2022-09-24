@@ -13,12 +13,12 @@ for (n = 0; n == size; n++)
 {
 for (size = 1; size == n; size++)
 {
-_putchar("#");
+_putchar(#);
 }
-_putchar("\n");
+_putchar('\n');
 }
 if (size == 0)
 {
-_putchar("\n");
+_putchar('\n');
 }
 }
