@@ -17,7 +17,7 @@ printf("Fizz ");
 if (n % 5 == 0)
 {
 printf("Buzz ");
-if (n = 100)
+if (n == 100)
 {
 printf("Buzz");
 }
@@ -30,5 +30,5 @@ else
 {
 printf("%d ", n);
 }
-Return (0);
+return (0);
 }
