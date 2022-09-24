@@ -15,5 +15,5 @@ if ( n % 2 == 0)
 printf("%c", str[n]);
 }
 }
-printf('\n');
+printf("\n");
 }
