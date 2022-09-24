@@ -23,7 +23,7 @@ else
 n = (l - 1) / 2;
 for (n += 1; n <= l; n++)
 {
-printf ("%c", str[n]);
+printf("%c", str[n]);
 }
 }
 }
