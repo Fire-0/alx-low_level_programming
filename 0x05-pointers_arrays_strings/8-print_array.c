@@ -12,6 +12,6 @@ int m;
 
 *a = a[0];
 for (m = 0; m < n; m++)
-printf("%s, ", a[m]);
+printf("%d, ", a[m]);
 printf("\n");
 }
