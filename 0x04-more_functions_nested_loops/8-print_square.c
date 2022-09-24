@@ -23,7 +23,7 @@ _putchar('\n');
 }
 else
 {
-n *= -1
+n = n * -1;
 _putchar(35);
 }
 }
