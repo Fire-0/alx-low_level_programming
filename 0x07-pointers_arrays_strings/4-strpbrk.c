@@ -14,7 +14,7 @@ while (*s != *accept)
 {
 if (*s != *accept)
 {
-return();
+return('\0');
 }
 else
 {
