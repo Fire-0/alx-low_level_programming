@@ -12,7 +12,7 @@ unsigned int m, n = 0;
 
 for (m = 0; m < n, m++)
 {
-if (s[n] == accept[m])
+if (s[n] = accept[m])
 {
 return (m);
 }
