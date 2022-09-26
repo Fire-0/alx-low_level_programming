@@ -15,7 +15,7 @@ for (n = O; haystack[n] != *needle; n++)
 *haystack != '\0';
 if (haystack[n] != *needle)
 {
-return ('\O');
+return ();
 }
 else
 {
