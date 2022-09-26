@@ -15,8 +15,5 @@ if (s[n] == c)
 {
 return (s);
 }
-else
-{
 return ('\0');
-}
 }
