@@ -20,4 +20,6 @@ else
 {
 return(s);
 }
+n++;
+}
 }
