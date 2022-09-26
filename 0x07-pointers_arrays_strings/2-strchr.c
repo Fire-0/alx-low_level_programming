@@ -10,6 +10,7 @@ char *_strchr(char *s, char c)
 {
 int n;
 
+for (n = 0; s[n] != c; n++)
 if (s[n] == c)
 {
 return (s);
