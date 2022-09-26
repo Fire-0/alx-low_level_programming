@@ -10,7 +10,7 @@ unsigned int _strspn(char *s, char *accept)
 {
 unsigned int m, n = 0;
 
-for (m = 0; m < n; m++)
+for (m = 0; *s == *accept; m++)
 {
 s[n] == accept[m];
 }
