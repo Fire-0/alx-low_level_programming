@@ -15,4 +15,5 @@ if (s[n] != accept[m])
 {
 return (m);
 }
+return ('\0');
 }
