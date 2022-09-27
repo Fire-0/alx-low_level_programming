@@ -12,14 +12,11 @@ int n = 0;
 
 while (*s != *accept)
 {
-if (*s != *accept)
-{
-return('\0');
-}
-else
+if (*s ==*accept)
 {
 return(s);
 }
+return('\0');
 n++;
 }
 }
