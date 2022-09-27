@@ -15,5 +15,5 @@ if (s[n] == c)
 {
 return (s);
 }
-return ('\n');
+return ('\0');
 }
