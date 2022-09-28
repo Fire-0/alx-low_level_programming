@@ -15,11 +15,13 @@ return (0);
 }
 else
 {
-if (n % x == 0)
+if (n % x == 0 && x != n)
 {
 return (0);
 }
+else if (n % x == 0 && x == n)
 }
 return (1);
+}
 is_prime_number(n, x + 1);
 }
