@@ -16,5 +16,5 @@ else if (y < 0)
 {
 return (-1);
 }
-return (n * n ^ (y - 1));
+return (n * (n ^ (y - 1)));
 }
