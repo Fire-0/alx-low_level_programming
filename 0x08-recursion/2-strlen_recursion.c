@@ -11,11 +11,11 @@ int n = 0;
 
 if (s[n] == '\0')
 {
-return (n);
+return (0);
 }
 else
 {
-return(0);
+return(1);
 }
-_strlen_recursion(s[n]) = n + (n - 1)
+_strlen_recursion(s[n]) = 1 + strlen(n - 1);
 }
