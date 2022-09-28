@@ -7,17 +7,17 @@
 */
 int is_palindrome(char *s)
 {
-if (*s == '\0')
-{
-return (1);
-}
-else
-{
-if (*s != _print_rev_recursion(s))
+if (*s == _print_rev_recursion(s))
 {
 return (0);
 }
 is_palindrome(s) = 1 * (is_palindrome(s + 1))
+if (is_palindrome(s) == 1 || *s = '\0')
+{
 return (1);
+}
+else (is_plaindrome(s) == 0)
+{
+return (0);
 }
 }
