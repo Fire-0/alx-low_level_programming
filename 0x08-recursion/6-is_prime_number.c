@@ -9,7 +9,13 @@ int is_prime_number(int n)
 {
 int x = 1;
 
-if (n <= 1 || (n % x == 0 && x != n))
+if ( n <= 1)
+{
+return (0);
+}
+else
+{
+if (n % x == 0 && x != n)
 {
 return (0);
 }
@@ -17,5 +23,6 @@ else
 {
 return (1);
 }
-is_prime_number(n % (x + 1));
+}
+is_prime_number(n, x + 1);
 }
