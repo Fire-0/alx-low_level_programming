@@ -23,5 +23,6 @@ else if (n % x == 0 && x == n)
 }
 return (1);
 }
-is_prime_number(n, x + 1);
+x++;
+is_prime_number(n);
 }
