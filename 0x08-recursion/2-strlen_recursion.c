@@ -13,7 +13,7 @@ if (s[n] == '\0')
 {
 return (0);
 }
-else 
+else if (s[n] != '\0')
 {
 return (1);
 }
