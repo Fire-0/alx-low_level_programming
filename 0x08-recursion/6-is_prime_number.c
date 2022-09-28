@@ -7,22 +7,19 @@
 */
 int is_prime_number(int n)
 {
-int x = 1;
+int r = 1;
 
 if (n <= 1)
 {
 return (0);
 }
-else
-{
-if (n % x == 0 && x != n)
+is_prime_number(n) = n % (r + 1);
+if (is_prime_number(n) == 0 && r < n)
 {
 return (0);
 }
-else if (n % x == 0 && x == n)
+else
 }
 return (1);
 }
-x++;
-is_prime_number(n);
 }
