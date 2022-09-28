@@ -13,5 +13,5 @@ if (s[n] == '\0')
 {
 return (0);
 }
-_strlen_recursion(s[n]) = 1 + strlen(n - 1);
+_strlen_recursion(s[n]) = 1 + strlen(s[n - 1]);
 }
