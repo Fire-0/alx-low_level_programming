@@ -17,7 +17,7 @@ if (*s != _print_rev_recursion(s))
 {
 return (0);
 }
-is_palindrome(s) = 1 * (is_palindrome(s + 1)
+is_palindrome(s) = 1 * (is_palindrome(s + 1))
 return (1);
 }
 }
