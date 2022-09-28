@@ -13,9 +13,5 @@ if (s[n] == '\0')
 {
 return (0);
 }
-else if (s[n] != '\0')
-{
-return (1);
-}
 return (1 + strlen(s[n - 1]));
 }
