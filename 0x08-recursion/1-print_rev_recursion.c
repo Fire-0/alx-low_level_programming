@@ -7,14 +7,9 @@
 */
 void _print_rev_recursion(char *s)
 {
-int n, m = 0;
-char *r
-
-s[n] == r[m];
-if (r[m] == s[0])
+if (*s != '\0')
 {
-_putchar('\n');
+_print_rev_recursion(s + 1);
+_putchar(*s);
 }
-_putchar(r[m]);
-_print_rev_recursion(s[n -1]);
 }
