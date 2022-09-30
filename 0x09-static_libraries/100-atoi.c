@@ -7,13 +7,13 @@
 */
 int _atoi(char *s)
 {
-int c, o, s, n;
+int c, o, r, n;
 
 if (s[0] == '\0')
 {
-s = -1;
+r = -1;
 }
-if (s == -1)
+if (r == -1)
 {
 o = 1;
 }
@@ -27,6 +27,10 @@ n = 0;
 for (c = o; s[c] != '\0'; c++)
 {
 n = n * 10 + s[c] - '0';
+}
+if (r == -1)
+{
+n = -n;
 }
 return (n);
 }
