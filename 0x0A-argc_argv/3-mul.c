@@ -6,13 +6,16 @@
 */
 int main(int argc, char *argv[])
 {
-int mul;
+int mul ,n;
 
-mul = argv[1] * argv[2];
+for (n = 1; n < argc; n++)
+{
+mul *= argv[n];
 printf("%d\n", mul);
 if (argc < 3)
 {
 printf("Error");
+}
 }
 return (0);
 }
