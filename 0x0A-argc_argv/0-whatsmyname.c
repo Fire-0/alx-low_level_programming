@@ -4,9 +4,8 @@
 *main - a program that prints it's name, followed by a new line
 *Return: 0
 */
-int main(int argc, char *argv[])
+int main(int __attribute__ ((unused)) argc, char *argv[])
 {
-int __attribut__ ((unused)) argc;
 _putchar(argv);
 _putchar('\n');
 return (0);
