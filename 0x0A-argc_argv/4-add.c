@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 {
 int add, n;
 
-for ( n = 1; n < argc; n++)
+for (n = 1; n < argc; n++)
 {
 add += argv[n];
 printf("%d\n", add);
