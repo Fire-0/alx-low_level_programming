@@ -13,8 +13,8 @@ char *add = 0;
 
 for (n = 1; n < argc; n++)
 {
-add += argv[n];
-printf("%d\n", add);
+*add += argv[n];
+printf("%s\n", *add);
 if (argc < 2)
 {
 printf("0\n");
