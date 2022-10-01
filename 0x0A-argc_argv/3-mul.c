@@ -8,7 +8,10 @@
 */
 int main(int argc, char *argv[])
 {
-printf("%s\n", (argv + 1) * (argv + 2));
+char mul = 0;
+
+mul = argv[1] * argv[2];
+printf("%s\n", mul);
 if (argc < 3)
 {
 printf("Error\n");
