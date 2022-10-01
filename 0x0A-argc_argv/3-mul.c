@@ -13,7 +13,7 @@ char mul = 1;
 
 for (n = 1; n < argc; n++)
 {
-mul = mul * argv[n];
+mul = mul * *argv[n];
 printf("%s\n", mul);
 if (argc < 3)
 {
