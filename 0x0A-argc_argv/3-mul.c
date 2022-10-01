@@ -6,16 +6,10 @@
 */
 int main(int argc, char *argv[])
 {
-int mul ,n;
-
-for (n = 1; n < argc; n++)
-{
-mul *= argv[n];
-printf("%d\n", mul);
+printf("%d\n", argv[1] * argv[2]);
 if (argc < 3)
 {
-printf("Error");
-}
+printf("Error\n");
 }
 return (0);
 }
