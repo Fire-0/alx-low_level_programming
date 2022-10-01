@@ -10,7 +10,8 @@ int main(int argc, char *argv[])
 {
 int n;
 int add;
-int a; 
+int a;
+int b;
 
 for (n = 1; n < argc; n++)
 {
@@ -22,7 +23,7 @@ if (argc < 2)
 {
 printf("0\n");
 }
-if (!(argv[n] <= 0 && argv[n] >= 0))
+if (!(argv <= 0 && argv >= 0))
 {
 return (1);
 }
