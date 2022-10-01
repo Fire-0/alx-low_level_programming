@@ -2,6 +2,8 @@
 
 /**
 *main - prints the result of the multiplication of two numbers
+*@argc: argument count
+*@argv: argument entry
 *Return: 0
 */
 int main(int argc, char *argv[])
