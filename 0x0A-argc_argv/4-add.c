@@ -15,7 +15,7 @@ int a;
 for (n = 1; n < argc; n++)
 {
 a = atoi(argv[1]);
-b = atoi(argv[2])
+b = atoi(argv[2]);
 add = a + b;
 printf("%d\n", add);
 if (argc < 2)
