@@ -8,13 +8,17 @@
 */
 int main(int argc, char *argv[])
 {
+int n = 1;
 char mul = 1;
 
-mul = argv[1] * argv[2];
+for (n = 1; n < argc; n++)
+{
+mul = mul * argv[n];
 printf("%s\n", mul);
 if (argc < 3)
 {
 printf("Error\n");
+}
 }
 return (0);
 }
