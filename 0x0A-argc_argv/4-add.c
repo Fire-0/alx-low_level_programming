@@ -9,12 +9,14 @@
 int main(int argc, char *argv[])
 {
 int n;
-char *add = 0;
+int add;
+int a; 
 
 for (n = 1; n < argc; n++)
 {
-*add += argv[n];
-printf("%s\n", *add);
+a = atoi(argv[n]);
+add += a;
+printf("%d\n", add);
 if (argc < 2)
 {
 printf("0\n");
