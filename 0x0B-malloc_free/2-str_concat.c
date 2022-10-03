@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
+#include "_strcat.c"
+#include "_strlen.c"
 
 /**
 *str_concat - concatenates two strings
@@ -13,8 +14,8 @@ char *str_concat(char *s1, char *s2)
 int len = 0;
 char *ptr;
 
-ptr = strcat(s1, s2);
-len = strlen(ptr);
+ptr = _strcat(s1, s2);
+len = _strlen(ptr);
 ptr = malloc(sizeof(char) * len)
 return (ptr);
 }
