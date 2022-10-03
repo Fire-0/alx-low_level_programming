@@ -25,5 +25,5 @@ n++;
 }
 ch[n] = '\0';
 return (ch);
-free (ch);
+free(ch);
 }
