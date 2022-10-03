@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-*create_array - create an array of chars and initializes it with a specific char
+*create_array - create an array of chars
 *@c: specific char
 *@size: integral input
 *Return: pointer to string or NULL if size = 0 or program fails
@@ -15,7 +15,7 @@ unsigned int n;
 ch = malloc(sizeof(char) * size);
 if (size == 0)
 {
-return ('\0');
+return (NULL);
 }
 n = 0;
 while (n < size)
