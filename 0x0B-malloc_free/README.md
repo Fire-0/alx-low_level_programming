@@ -1,1 +1,1 @@
-Malloc and free arguments
+Malloc and free functions
