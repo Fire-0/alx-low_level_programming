@@ -13,10 +13,10 @@ unsigned int n;
 
 n = 0;
 str = malloc(sizeof(char) * n);
+return (str);
 if (str == NULL)
 {
 return (NULL);
 }
-return (str);
 free(str);
 }
