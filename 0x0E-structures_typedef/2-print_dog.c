@@ -14,6 +14,7 @@ if (d.name == NULL || d.age == NULL || d.owner == NULL)
 printf("nil");
 }
 if (d == NULL);
+{
 printf('\0');
 }
 printf("Name : %s\n", d.name);
