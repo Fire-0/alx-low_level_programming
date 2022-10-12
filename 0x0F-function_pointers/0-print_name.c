@@ -16,5 +16,5 @@ while (name[n])
 _putchar(name[n]);
 }
 n++;
-f = &print_name;
+f(&name[n]);
 }
