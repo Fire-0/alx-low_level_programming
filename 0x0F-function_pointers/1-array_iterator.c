@@ -1,5 +1,4 @@
-#include "_putchar.c"
-#include <stdio.h>
+#include "functions_pointers.h"
 
 /**
 *array_iterator - executes a function
