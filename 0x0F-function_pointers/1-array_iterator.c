@@ -22,5 +22,5 @@ for (n = 0; n < size; n++)
 _putchar(array[n] + '0');
 }
 }
-action(&array[n]);
+(*action)(&array[n]);
 }
