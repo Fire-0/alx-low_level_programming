@@ -1,5 +1,6 @@
 #include "functions_pointers.h"
 #include "_putchat.c"
+#include <stdio.h>
 
 /**
 *array_iterator - executes a function
