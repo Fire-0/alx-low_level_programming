@@ -1,4 +1,5 @@
 #include "_putchar.c"
+#include <stdio.h>
 
 /**
 *array_iterator - executes a function
@@ -14,7 +15,7 @@ int n;
 
 for (n = 0; n < size; n++)
 {
-array[n];
+_putchar(atoi(array[n]));
 }
 action(&array[n]);
 }
