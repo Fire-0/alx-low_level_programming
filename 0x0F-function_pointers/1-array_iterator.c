@@ -15,7 +15,7 @@ size_t n;
 
 for (n = 0; n < size; n++)
 {
-_putchar(atoi(array[n]));
+return(array[n]);
 }
 action(&array[n]);
 }
