@@ -10,11 +10,9 @@ void print_name(char *name, void (*f)(char*))
 {
 unsigned int n;
 
-n = 0;
-while (name[n])
+for (n = 0; name[n]; n++)
 {
 _putchar(name[n]);
 }
-n++;
-f = &name[n];
+f(&name[n]);
 }
