@@ -1,6 +1,5 @@
 #include "functions_pointers.h"
 #include "_putchar.c"
-#include <stdio.h>
 
 /**
 *array_iterator - executes a function
@@ -14,7 +13,6 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 {
 size_t n;
 
-array = malloc(sizeof(int) * size);
 if (size != 0)
 {
 for (n = 0; n < size; n++)
