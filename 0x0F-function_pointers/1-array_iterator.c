@@ -16,7 +16,7 @@ if (size != 0)
 {
 for (n = 0; n < size; n++)
 {
-return(array[n]);
+return (array[n]);
 }
 }
 action(&array[n]);
